@@ -1,0 +1,9 @@
+.header__lang-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    align-self: end;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    color: #FFFFFF;
+}
