@@ -1,5 +1,28 @@
-.lead_image {
-    margin: 0 auto;
-    width: 928px;
-    height: 580px;
+.lead__image {
+    object-fit: cover;
+    /*width: 100%;
+    /*width: 984px;*/
+    height: 615px;
+   
+}
+
+/*@media (max-width:1024px) {
+    .lead__image {
+        width: 928px;
+        height: 580px;
+    }
+}
+
+@media (max-width:768px) {
+    .lead__image {
+        width: 768px;
+        height: 480px;
+    }
+}
+
+@media (max-width:425px) {
+    .lead__image {
+        width: 768px;
+        height: 480px;
+    }
 }

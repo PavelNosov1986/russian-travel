@@ -1,12 +1,17 @@
 .lead__title {
-    width: 720px;
-    height: 200px;
     margin: 0 auto;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
+    line-height: 1.04;
     text-align: center;
     color: #FFFFFF;
     outline: 1px solid red;
+}
+
+@media (max-width:425px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 1.1;
+    }
 }
