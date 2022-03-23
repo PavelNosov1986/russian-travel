@@ -3,8 +3,7 @@
     flex-wrap: wrap;
     max-width: 984px;
     margin: 0 auto;
-   
-        outline: 1px solid rgb(0, 255, 132);
+    outline: 1px solid rgb(0, 255, 132);
 }
 
 @media (max-width:1024px) {

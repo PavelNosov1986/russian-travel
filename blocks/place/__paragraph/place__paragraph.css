@@ -1,10 +1,9 @@
-.intro__text {
+.place__paragraph {
+    grid-area: four;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.63;
     color: #FFFFFF;
-    margin: 40px 0 33px 0;
-    outline: 1px solid rgb(55, 0, 255);
 }
