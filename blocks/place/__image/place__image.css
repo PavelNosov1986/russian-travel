@@ -1,7 +1,27 @@
 .place__image {
-    grid-area: three;
-    width: 100%;
-    height: 100%;
+    width: 45.9%;
+    height: 50%;
     object-fit: cover;
     outline: 1px solid rgb(55, 0, 255);
+}
+
+@media (max-width:1024px) {
+    .place__image {
+    width: 440px;
+     height: 440px;
+    }
+}
+
+@media (max-width:1024px) {
+    .place__image {
+    width: 340px;
+     height: 340px;
+    }
+}
+
+@media (max-width:425px) {
+    .place__image {
+        width:100%;
+     height: 320px;
+    }
 }

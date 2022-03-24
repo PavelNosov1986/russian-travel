@@ -1,17 +1,27 @@
 .place {
     width: 984px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr max-content;
-    /*grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));*/
-    /*grid-column-gap: 40px;
-    grid-row-gap: 48px;*/
-    gap: 48px 40px;
-    grid-template-areas:
-        "one two "
-        "three four"
-        "three five";
-    /*align-items: end;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
     outline: 1px solid rgb(255, 0, 0);
+}
+
+@media (max-width:1024px) {
+    .place {
+        width: 928px;
+    }
+}
+
+@media (max-width:768px) {
+    .place {
+        width: 720px;
+
+    }
+}
+
+@media (max-width:425px) {
+    .place {
+        width: 320px;
+    }
 }
