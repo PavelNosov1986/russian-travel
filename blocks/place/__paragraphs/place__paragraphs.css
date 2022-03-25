@@ -1,9 +1,10 @@
-.place__paragraphs{
-    width: 45.9%;
+.place__paragraphs {
+    width: 49%;
 }
 
 @media (max-width:425px) {
-    .place__paragraphs{
-        width: 100%;
+    .place__paragraphs {
+        width: 90%;
+        margin: 32px auto 0;
     }
 }

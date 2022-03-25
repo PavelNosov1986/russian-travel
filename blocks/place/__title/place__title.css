@@ -1,11 +1,9 @@
 .place__title {
-     width: 45.9%;
-    font-family: 'Inter';
+    width: 45.9%;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 1.06;
-    color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 48px;
 }
@@ -20,10 +18,10 @@
 
 @media (max-width:425px) {
     .place__title {
-        width: 100%;
+        width: 90%;
         font-size: 32px;
         line-height: 1.09;
-        margin-top: 0;
+        margin: 0 auto;
         margin-bottom: 32px;
     }
 }

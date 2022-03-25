@@ -1,11 +1,9 @@
 .intro__title {
-    font-family: 'Inter';
     font-style: normal;
     font-size: 54px;
     font-weight: 900;
     line-height: 1.07;
     margin: 0 auto;
-    color: #FFFFFF;
 }
 
 @media (max-width:425px) {

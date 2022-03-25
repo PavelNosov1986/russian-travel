@@ -4,13 +4,11 @@
     max-width: 690px;
     height: 429px;
     margin: 92px 0 92px 148px;
-    outline: 1px solid red;
 }
 
 @media (max-width:1024px) {
     .intro {
         margin: 92px 0 92px 48px;
-
     }
 }
 
@@ -19,9 +17,7 @@
         width: 720px;
         height: 429px;
         margin: 88px auto;
-
     }
-
 }
 
 @media (max-width:425px) {
@@ -29,7 +25,5 @@
         width: 288px;
         height: 754px;
         margin: 64px auto;
-
     }
-
 }
