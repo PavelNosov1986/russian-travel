@@ -9,8 +9,9 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    margin-top: 39px;
-    margin-bottom: 92px;
+    text-decoration: none;
+    width: 1184px;
+    min-height: 740px;
 }
 
 .cover__background::before {
@@ -29,4 +30,25 @@
 
 .cover__background:hover::before {
     opacity: 0.8;
+}
+
+@media (max-width:1024px) {
+    .cover__background {
+        width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media (max-width:768px) {
+    .cover__background {
+        width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (max-width:425px) {
+    .cover__background {
+        width: 320px;
+        min-height: 200px;
+    }
 }

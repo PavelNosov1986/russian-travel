@@ -1,25 +1,27 @@
 .cover {
-    width: 1184px;
+ width: 1184px;
     min-height: 740px;
-    margin: 0 auto 92px;
+    margin: 39px auto 92px;
 }
-
 
 @media (max-width:1024px) {
     .cover {
+        width: 1024px;
         min-height: 640px;
-
     }
 }
 
 @media (max-width:768px) {
     .cover {
+        width: 768px;
         min-height: 480px;
     }
 }
 
 @media (max-width:425px) {
     .cover {
+        width: 320px;
         min-height: 200px;
+        margin: 24px auto 64px;
     }
 }
