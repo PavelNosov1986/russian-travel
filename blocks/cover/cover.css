@@ -4,23 +4,23 @@
     margin: 39px auto 92px;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1220px) {
     .cover {
-        width: 1024px;
+        width: 100%;
         min-height: 640px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:716px) {
     .cover {
-        width: 768px;
+        width: 100%;
         min-height: 480px;
     }
 }
 
 @media (max-width:425px) {
     .cover {
-        width: 320px;
+        width: 100%;
         min-height: 200px;
         margin: 24px auto 64px;
     }
