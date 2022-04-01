@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 53px;
+    padding-bottom: 80px;
 }
 
 @media (max-width:1024px) {
@@ -15,14 +15,13 @@
 @media (max-width:768px) {
     .place {
         width: 720px;
-        padding-bottom: 48px;
-
+        padding-bottom: 63px;
     }
 }
 
 @media (max-width:425px) {
     .place {
         width: 320px;
-        padding-bottom: 9px;
+        padding-bottom: 60px;
     }
 }

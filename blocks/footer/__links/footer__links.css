@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-@media (max-width:425px) {
+@media (max-width:585px) {
     .footer__links {
         width: 186px;
         min-height: 244px;

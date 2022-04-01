@@ -2,9 +2,15 @@
     width: 49%;
 }
 
+@media (max-width:740px) {
+    .place__paragraphs {
+        width: auto;
+    }
+}
+
 @media (max-width:425px) {
     .place__paragraphs {
-        width: 90%;
+        width: 288px;
         margin: 32px auto 0;
     }
 }

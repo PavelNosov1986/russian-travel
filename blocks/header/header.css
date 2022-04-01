@@ -1,6 +1,6 @@
 .header {
     display: grid;
-    grid-template-columns: 1fr 30px 30px;
+    grid-template-columns: 1fr max-content max-content;
     grid-gap: 18px;
     padding-top: 28px;
     padding-right: 48px;

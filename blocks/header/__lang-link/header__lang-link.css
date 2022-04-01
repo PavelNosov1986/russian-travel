@@ -5,14 +5,17 @@
     align-self: end;
     line-height: 1.17;
     color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
 }
 
-.header__lang-link:last-child {
-    text-decoration: none;
+.header__lang-link:hover{
+    opacity: 0.8;
 }
 
 @media (max-width:425px) {
     .header__lang-link {
+        align-self: center;
         font-size: 18px;
         line-height: 1.11;
         color: #FFFFFF;

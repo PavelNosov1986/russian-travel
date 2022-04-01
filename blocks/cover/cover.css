@@ -1,7 +1,7 @@
 .cover {
     width: 1184px;
     min-height: 740px;
-    margin: 39px auto 92px;
+    margin: 13px auto 88px;
 }
 
 @media (max-width:1220px) {
@@ -11,17 +11,16 @@
     }
 }
 
-@media (max-width:716px) {
+@media (max-width:768px) {
     .cover {
-        width: 100%;
         min-height: 480px;
+        margin: 27px auto 88px;
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:585px) {
     .cover {
-        width: 100%;
         min-height: 200px;
-        margin: 24px auto 64px;
+        margin: 4px auto 64px;
     }
 }

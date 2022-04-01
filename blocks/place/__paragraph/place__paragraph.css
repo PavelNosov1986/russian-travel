@@ -1,22 +1,26 @@
-.place__paragraphs_paragraph {
+.place__paragraph {
     width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.63;
+    margin: 0 auto 26px;
+}
+
+.place__paragraph:last-of-type{
     margin: 0;
-    padding-bottom: 26px;
 }
 
 @media (max-width:768px) {
-    .place__paragraphs_paragraph {
+    .place__paragraph {
+        width: 352px;
         font-size: 16px;
-        padding-bottom: 25px;
+        margin: 0 auto 25px
     }
 }
 
 @media (max-width:425px) {
-    .place__paragraphs_paragraph {
-        font-size: 16px;
+    .place__paragraph {
+        width: 100%;
     }
 }
