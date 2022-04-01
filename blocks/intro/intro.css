@@ -20,7 +20,7 @@
 
 @media (max-width:740px) {
     .intro {
-        width: calc(100% - 2 * 24px)
+        width: calc(100% - 2 * 24px);
     }
 }
 
