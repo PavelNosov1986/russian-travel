@@ -28,6 +28,7 @@
    .photo-grid {
         grid-template-columns: 288px;
         grid-row-gap: 12px;
-        margin-left: 16px;       
+        justify-content: center;
+      
     }
 }
